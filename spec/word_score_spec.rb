@@ -18,4 +18,9 @@ describe('String#word_score') do
     expect((my_str).word_score()).to(eq("2"))
   end
 
+  it("will return correct total score for when a word is passed") do
+    my_str = "ADBFKJQ"
+    expect((my_str).word_score()).to(eq("33"))
+  end
+
 end
