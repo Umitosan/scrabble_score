@@ -13,8 +13,9 @@ Program will return a word-score value from a user-input word
 | Behavior | Input | Output |
 |----------|-------|--------|
 |Pass through the method into the output|"Word"|"Word"|
-|          |       |        |
-|          |       |        |
+|Get user input, return user input|"my word"|"my word"|
+|User inputs 1 letter, return score for that 1 letter|"A"|"1"|
+|User inputs 1 word, return summed score for that 1 word|"hello"|"8"|
 
 ## Setup/Installation Requirements
 
