@@ -12,7 +12,7 @@ Program will return a word-score value from a user-input word
 
 | Behavior | Input | Output |
 |----------|-------|--------|
-|Get user input, return user input|"Word"|"Word"|
+|Pass through the method into the output|"Word"|"Word"|
 |          |       |        |
 |          |       |        |
 
