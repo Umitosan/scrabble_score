@@ -1,6 +1,5 @@
 require('rspec')
 require('scrabble_code')
-require('pry')
 
 describe('String#word_score') do
 
